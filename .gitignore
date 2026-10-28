@@ -1,0 +1,56 @@
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
+!.env.example
+.env.example
+!frontend/.env.example
+!backend/.env.example
+
+node_modules/
+dist/
+build/
+.vite/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+backend/chroma_db/
+
+.idea/
+.vscode/
+
+# Keys and credentials
+*.pem
+deploy/*.pem
+
+# Logs and runtime artifacts
+*.log
+logs/
+
+# Python local tooling artifacts
+.coverage
+coverage.xml
+htmlcov/
+.ruff_cache/
+.pyre/
+
+# Local databases and temp files
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.temp
+backend/data/
+
+# OS/editor swap files
+*.swp
+*.swo
+
+# Local debug helpers
+backend/check_url.py
